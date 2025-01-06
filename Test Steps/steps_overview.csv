@@ -1,0 +1,40 @@
+Flow ID,Name,Description,Test Steps,Flow Priority,Status
+1,Complete Purchase with Customization and Checkout Process,"Navigate to the homepage, select a product, customize options, add to cart, and proceed through the checkout process. Fill in shipping and payment details, and verify the thank you page.","Step 1: Navigate to /
+Step 2: Hover over item object
+Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
+Step 4: Click on button AddToCart
+Step 5: Click on label colorStorageOption (StorageOption1TB)
+Step 6: Click on label colorStorageOption (Color)
+Step 7: Click on button Buy
+Step 8: Hover over link CartNavigation
+Step 9: Click on link CartLink -> Navigate to page 'cart page#cart'
+Step 10: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+Step 11: Hover over div object
+Step 12: Click on input Email
+Step 13: Enter input value in input Email2
+Step 14: Click on button ContinueToShipping -> Navigate to page 'checkout page#checkout/shipping-address'
+Step 15: Hover over div object
+Step 16: Click on input FirstName
+Step 17: Hover over div object2
+Step 18: Enter input value in input FirstName2
+Step 19: Click on input LastName
+Step 20: Hover over div object3
+Step 21: Enter input value in input LastName2
+Step 22: Click on input Address
+Step 23: Hover over div object4
+Step 24: Enter input value in input Address2
+Step 25: Click on input ZipCode
+Step 26: Hover over div object5
+Step 27: Enter input value in input ZipCode2
+Step 28: Click on input City
+Step 29: Hover over div object6
+Step 30: Enter input value in input City2
+Step 31: Click on input ShippingState
+Step 32: Hover over div object7
+Step 33: Enter input value in input State
+Step 34: Click on input Phone
+Step 35: Enter input value in input Phone2
+Step 36: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
+Step 37: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
+Step 38: Take full page screenshot as checkpoint
+",High,NEW
