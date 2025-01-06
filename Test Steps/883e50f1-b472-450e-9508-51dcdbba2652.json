@@ -1,0 +1,21 @@
+{
+    "steps": [
+        "step 1: Navigate to /",
+        "step 2: Select item and add to cart with options",
+        "step 3: Click on button Increased",
+        "step 4: Click on button BuyUpdated",
+        "step 5: Click on link PlaceOrder -> Navigate to page 'cart page#cart'",
+        "step 6: Click on button IncreaseQuantity",
+        "step 7: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'",
+        "step 8: Hover over div object",
+        "step 9: Click on input Email",
+        "step 10: Enter input value in input Email",
+        "step 11: Click on button ContinueToShipping",
+        "step 12: Hover over div object2",
+        "step 13: Click on input Email",
+        "step 14: Enter input value in input Email",
+        "step 15: Click on button ContinueToShipping2",
+        "step 16: Fill shipping information and proceed to payment",
+        "step 17: Take full page screenshot as checkpoint"
+    ]
+}
