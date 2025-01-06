@@ -2,13 +2,13 @@ Flow ID,Name,Description,Test Steps,Flow Priority,Status
 1,Complete Purchase with Customization and Checkout Process,"Navigate to the homepage, select a product, customize options, add to cart, and proceed through the checkout process. Fill in shipping and payment details, and verify the thank you page.","Step 1: Navigate to /
 Step 2: Hover over item object
 Step 3: Click on link Apple -> Navigate to page 'category page#category/*'
-Step 4: Click on button AddToCart
+Step 4: Click on button addToCart (AddToCart)
 Step 5: Click on label colorStorageOption (StorageOption1TB)
 Step 6: Click on label colorStorageOption (Color)
 Step 7: Click on button Buy
 Step 8: Hover over link CartNavigation
 Step 9: Click on link CartLink -> Navigate to page 'cart page#cart'
-Step 10: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'
+Step 10: Click on button proceedToCheckout (ProceedToCheckout3) -> Navigate to page 'checkout info#checkout/info'
 Step 11: Hover over div object
 Step 12: Click on input Email
 Step 13: Enter input value in input Email2
@@ -38,6 +38,51 @@ Step 36: Click on button ContinueToPayment -> Navigate to page 'checkout page#ch
 Step 37: Click on button CompleteOrder -> Navigate to page 'thank you#thank-you/*'
 Step 38: Take full page screenshot as checkpoint
 ",High,STABLE
+3,Complete Checkout Process with Item Selection and Shipping Information,"Navigate to the home page, select an item, add it to the cart, and proceed through the checkout process. Enter email and shipping details, then verify the checkout page.","Step 1: Navigate to /
+Step 2: Select item and add to cart with options
+	- Step 1: Hover over item object
+	- Step 2: Click on link Apple -> Navigate to page 'category page#category/*'
+	- Step 3: Click on button addToCart (AddToCart2)
+	- Step 4: Click on label colorAndStorageOption (StorageOption1TB)
+	- Step 5: Click on label colorAndStorageOption (Color)
+Step 3: Click on button Increased
+Step 4: Click on button BuyUpdated
+Step 5: Click on link PlaceOrder -> Navigate to page 'cart page#cart'
+Step 6: Click on button IncreaseQuantity
+Step 7: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'
+Step 8: Hover over div object
+Step 9: Click on input Email
+Step 10: Enter input value in input Email
+Step 11: Click on button ContinueToShipping
+Step 12: Hover over div object2
+Step 13: Click on input Email
+Step 14: Enter input value in input Email
+Step 15: Click on button ContinueToShipping2
+Step 16: Fill shipping information and proceed to payment
+	- Step 1: Hover over div object
+	- Step 2: Click on input FirstName
+	- Step 3: Hover over div object2
+	- Step 4: Enter input value in input FirstName2
+	- Step 5: Click on input LastName
+	- Step 6: Hover over div object3
+	- Step 7: Enter input value in input LastName2
+	- Step 8: Click on input Address
+	- Step 9: Hover over div object4
+	- Step 10: Enter input value in input Address2
+	- Step 11: Click on input ZipCode
+	- Step 12: Hover over div object5
+	- Step 13: Enter input value in input ZipCode2
+	- Step 14: Click on input City
+	- Step 15: Hover over div object6
+	- Step 16: Enter input value in input City2
+	- Step 17: Click on input ShippingState
+	- Step 18: Hover over div object7
+	- Step 19: Enter input value in input State
+	- Step 20: Click on input Phone
+	- Step 21: Enter input value in input Phone2
+	- Step 22: Click on button ContinueToPayment
+Step 17: Take full page screenshot as checkpoint
+",Medium,NEW
 2,Complete Order Process from Item Selection to Home Page Verification,"Navigate to the home page, select an item, proceed to buy with storage options, place the order, fill in shipping details, and verify that the home page is displayed.","Step 1: Navigate to /
 Step 2: Select item and proceed to buy with storage options
 	- Step 1: Hover over item object
@@ -77,4 +122,4 @@ Step 5: Fill shipping details and complete the order
 	- Step 26: Click on button ContinueToPayment -> Navigate to page 'checkout page#checkout/payment'
 	- Step 27: Click on button CompleteOrder
 Step 6: Take full page screenshot as checkpoint
-",Trivial,NEW
+",Trivial,STABLE

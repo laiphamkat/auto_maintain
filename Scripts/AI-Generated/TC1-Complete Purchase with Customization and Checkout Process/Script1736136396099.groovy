@@ -34,13 +34,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link Apple - Navigate to page category pagecategory.png')
 
-"Step 4: Click on button AddToCart"
+"Step 4: Click on button addToCart (AddToCart)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_AddToCart'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/button_addToCart"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/button_addToCart', ['button_addToCart_class': button_addToCart_class, 'button_addToCart_internalHasText': button_addToCart_internalHasText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button AddToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button addToCart AddToCart.png')
 
 "Step 5: Click on label colorStorageOption (StorageOption1TB)"
 
@@ -84,13 +85,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/link_CartLin
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on link CartLink - Navigate to page cart pagecart.png')
 
-"Step 10: Click on button ProceedToCheckout -> Navigate to page 'checkout info#checkout/info'"
+"Step 10: Click on button proceedToCheckout (ProceedToCheckout3) -> Navigate to page 'checkout info#checkout/info'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart_page/button_ProceedToCheckout'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_cart_page/button_proceedToCheckout"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_cart_page/button_proceedToCheckout', ['button_proceedToCheckout_internalRoleButtonName': button_proceedToCheckout_internalRoleButtonName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Click on button ProceedToCheckout - Navigate to page checkout infocheckoutinfo.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 10-Click on button proceedToCheckout ProceedToCheckout3 - Navigate to page checkout infocheckoutinfo.png')
 
 "Step 11: Hover over div object"
 
