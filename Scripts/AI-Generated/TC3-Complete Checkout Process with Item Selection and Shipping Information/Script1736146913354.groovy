@@ -32,13 +32,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_Incre
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 3-Click on button Increased.png')
 
-"Step 4: Click on button BuyUpdated"
+"Step 4: Click on button Buy3"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_BuyUpdated'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/button_Buy3'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on button BuyUpdated.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 4-Click on button Buy3.png')
 
 "Step 5: Click on link PlaceOrder -> Navigate to page 'cart page#cart'"
 
@@ -48,13 +48,13 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/link_PlaceOr
 
 WebUI.takeScreenshot(reportLocation + '/TC3/Step 5-Click on link PlaceOrder - Navigate to page cart pagecart.png')
 
-"Step 6: Click on button IncreaseQuantity"
+"Step 6: Click on button RemoveItem2"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'cart?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart_page/button_IncreaseQuantity'))
+WebUI.enhancedClick(findTestObject('AI-Generated/Page_cart_page/button_RemoveItem2'))
 
-WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on button IncreaseQuantity.png')
+WebUI.takeScreenshot(reportLocation + '/TC3/Step 6-Click on button RemoveItem2.png')
 
 "Step 7: Click on button proceedToCheckout (ProceedToCheckout) -> Navigate to page 'checkout info#checkout/info'"
 

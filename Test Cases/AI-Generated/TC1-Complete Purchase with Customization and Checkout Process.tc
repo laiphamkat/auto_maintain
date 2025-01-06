@@ -125,6 +125,13 @@
         <masked>false</masked>
         <name>label_colorStorageOption_internalText_1</name>
     </variable>
+    <variable>
+        <defaultValue>'1'</defaultValue>
+        <description>Dynamic locator variable</description>
+        <id>0eb3f4c1-767a-476c-95c9-4fc39ea3d18c</id>
+        <masked>false</masked>
+        <name>link_cartCountAndNavigation_internalRoleLinkName</name>
+    </variable>
     <variableLinks>
         <testDataLinkId>d8f0227e-22eb-4804-83f6-52243e6664a8</testDataLinkId>
         <type>DATA_COLUMN</type>
@@ -214,5 +221,11 @@
         <type>DATA_COLUMN</type>
         <value>label_colorStorageOption_internalText_1</value>
         <variableId>2efccf1f-3f5e-434e-b1c3-5b5186b31b5a</variableId>
+    </variableLinks>
+    <variableLinks>
+        <testDataLinkId>d8f0227e-22eb-4804-83f6-52243e6664a8</testDataLinkId>
+        <type>DATA_COLUMN</type>
+        <value>link_cartCountAndNavigation_internalRoleLinkName</value>
+        <variableId>0eb3f4c1-767a-476c-95c9-4fc39ea3d18c</variableId>
     </variableLinks>
 </TestCaseEntity>

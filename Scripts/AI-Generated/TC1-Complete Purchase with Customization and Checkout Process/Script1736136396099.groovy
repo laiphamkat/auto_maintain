@@ -34,14 +34,14 @@ WebUI.enhancedClick(findTestObject('AI-Generated/Page_home/link_Apple'))
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 3-Click on link Apple - Navigate to page category pagecategory.png')
 
-"Step 4: Click on button addToCart (AddToCart)"
+"Step 4: Click on button addToCart (AddToCart5)"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/button_addToCart"
-WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/button_addToCart', ['button_addToCart_class': button_addToCart_class, 'button_addToCart_internalHasText': button_addToCart_internalHasText]))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/button_addToCart_1"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/button_addToCart_1', ['button_addToCart_class': button_addToCart_class, 'button_addToCart_internalHasText': button_addToCart_internalHasText]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button addToCart AddToCart.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 4-Click on button addToCart AddToCart5.png')
 
 "Step 5: Click on label colorStorageOption (StorageOption1TB)"
 
@@ -77,13 +77,14 @@ WebUI.mouseOver(findTestObject('AI-Generated/Page_category_page/link_CartNavigat
 
 WebUI.takeScreenshot(reportLocation + '/TC1/Step 8-Hover over link CartNavigation.png')
 
-"Step 9: Click on link CartLink -> Navigate to page 'cart page#cart'"
+"Step 9: Click on link cartCountAndNavigation (CartCount12) -> Navigate to page 'cart page#cart'"
 
 // WebUI.verifyMatch(WebUI.getUrl(), GlobalVariable.application_domain + 'category/.*?/?(?:#.*)?(?:\\?.*)?$', true)
 
-WebUI.enhancedClick(findTestObject('AI-Generated/Page_category_page/link_CartLink'))
+// Bind values to the variables in the locators of "AI-Generated/Dynamic Objects/Page_category_page/link_cartCountAndNavigation"
+WebUI.enhancedClick(findTestObject('AI-Generated/Dynamic Objects/Page_category_page/link_cartCountAndNavigation', ['link_cartCountAndNavigation_internalRoleLinkName': link_cartCountAndNavigation_internalRoleLinkName]))
 
-WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on link CartLink - Navigate to page cart pagecart.png')
+WebUI.takeScreenshot(reportLocation + '/TC1/Step 9-Click on link cartCountAndNavigation CartCount12 - Navigate to page cart pagecart.png')
 
 "Step 10: Click on button proceedToCheckout (ProceedToCheckout3) -> Navigate to page 'checkout info#checkout/info'"
 
