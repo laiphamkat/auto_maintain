@@ -18,17 +18,17 @@
             <iterationType>ALL</iterationType>
             <value></value>
         </iterationEntity>
-        <testDataId>Data Files/AI-Generated/TC2-Complete Order Process from Item Selection to Home Page Verification-test-data</testDataId>
+        <testDataId>Data Files/Archived/Archived_20250106/TC2-Complete Order Process from Item Selection to Home Page Verification-test-data</testDataId>
     </testDataLinks>
     <variable>
-        <defaultValue>'Data Files/AI-Generated/Common/selectItemAndProceedToBuyWithStorage-test-data'</defaultValue>
+        <defaultValue>'Data Files/Archived/Archived_20250106/Common/selectItemAndProceedToBuyWithStorage-test-data'</defaultValue>
         <description>Common function data file id</description>
         <id>24ec79d8-1e3f-4009-a245-e0e925f56a16</id>
         <masked>false</masked>
         <name>data_path_0</name>
     </variable>
     <variable>
-        <defaultValue>'Data Files/AI-Generated/Common/fillShippingDetailsAndCompleteOrder-test-data'</defaultValue>
+        <defaultValue>'Data Files/Archived/Archived_20250106/Common/fillShippingDetailsAndCompleteOrder-test-data'</defaultValue>
         <description>Common function data file id</description>
         <id>bcbeb0b6-73c4-4be5-9178-c00bc6148622</id>
         <masked>false</masked>
